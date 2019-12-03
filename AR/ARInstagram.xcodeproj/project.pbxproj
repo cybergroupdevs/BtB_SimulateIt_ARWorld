@@ -9,24 +9,6 @@
 /* Begin PBXBuildFile section */
 		7777A921238D48F6006082AE /* PyramidTilesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7777A920238D48F5006082AE /* PyramidTilesCell.swift */; };
 		A35A70974EB024F60FFDDA82 /* Pods_ARInstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F8738D8E6435E26D711D142 /* Pods_ARInstagram.framework */; };
-		B319615C22B9FC650076BE3F /* RobotoCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B319614A22B9FC640076BE3F /* RobotoCondensed-LightItalic.ttf */; };
-		B319615D22B9FC650076BE3F /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B319614B22B9FC640076BE3F /* Roboto-Light.ttf */; };
-		B319615E22B9FC650076BE3F /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B319614C22B9FC640076BE3F /* Roboto-Thin.ttf */; };
-		B319615F22B9FC650076BE3F /* RobotoCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B319614D22B9FC640076BE3F /* RobotoCondensed-BoldItalic.ttf */; };
-		B319616022B9FC650076BE3F /* RobotoCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B319614E22B9FC640076BE3F /* RobotoCondensed-Bold.ttf */; };
-		B319616122B9FC650076BE3F /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B319614F22B9FC640076BE3F /* Roboto-LightItalic.ttf */; };
-		B319616222B9FC650076BE3F /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B319615022B9FC640076BE3F /* Roboto-Medium.ttf */; };
-		B319616322B9FC650076BE3F /* RobotoCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B319615122B9FC640076BE3F /* RobotoCondensed-Light.ttf */; };
-		B319616422B9FC650076BE3F /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B319615222B9FC640076BE3F /* Roboto-ThinItalic.ttf */; };
-		B319616522B9FC650076BE3F /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B319615322B9FC640076BE3F /* Roboto-MediumItalic.ttf */; };
-		B319616622B9FC650076BE3F /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B319615422B9FC640076BE3F /* Roboto-Bold.ttf */; };
-		B319616722B9FC650076BE3F /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B319615522B9FC640076BE3F /* Roboto-BoldItalic.ttf */; };
-		B319616822B9FC650076BE3F /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B319615622B9FC640076BE3F /* RobotoCondensed-Regular.ttf */; };
-		B319616922B9FC650076BE3F /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B319615722B9FC640076BE3F /* Roboto-Italic.ttf */; };
-		B319616A22B9FC650076BE3F /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B319615822B9FC650076BE3F /* Roboto-Black.ttf */; };
-		B319616B22B9FC650076BE3F /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B319615922B9FC650076BE3F /* Roboto-BlackItalic.ttf */; };
-		B319616C22B9FC650076BE3F /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B319615A22B9FC650076BE3F /* Roboto-Regular.ttf */; };
-		B319616D22B9FC650076BE3F /* RobotoCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B319615B22B9FC650076BE3F /* RobotoCondensed-Italic.ttf */; };
 		B319617222BA10580076BE3F /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B319617122BA10580076BE3F /* UIView+Extensions.swift */; };
 		B3513D6A22AAE2F30047D688 /* Storyboard+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3513D6922AAE2F30047D688 /* Storyboard+Extensions.swift */; };
 		B3513D6D22AAE5970047D688 /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3513D6C22AAE5970047D688 /* ImageHelper.swift */; };
@@ -69,24 +51,6 @@
 		6F8738D8E6435E26D711D142 /* Pods_ARInstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARInstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7777A920238D48F5006082AE /* PyramidTilesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PyramidTilesCell.swift; sourceTree = "<group>"; };
 		9CD9125959957B5CCBBA439A /* Pods-ARInstagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARInstagram.release.xcconfig"; path = "Target Support Files/Pods-ARInstagram/Pods-ARInstagram.release.xcconfig"; sourceTree = "<group>"; };
-		B319614A22B9FC640076BE3F /* RobotoCondensed-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-LightItalic.ttf"; sourceTree = "<group>"; };
-		B319614B22B9FC640076BE3F /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
-		B319614C22B9FC640076BE3F /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
-		B319614D22B9FC640076BE3F /* RobotoCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-BoldItalic.ttf"; sourceTree = "<group>"; };
-		B319614E22B9FC640076BE3F /* RobotoCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Bold.ttf"; sourceTree = "<group>"; };
-		B319614F22B9FC640076BE3F /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
-		B319615022B9FC640076BE3F /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
-		B319615122B9FC640076BE3F /* RobotoCondensed-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Light.ttf"; sourceTree = "<group>"; };
-		B319615222B9FC640076BE3F /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
-		B319615322B9FC640076BE3F /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
-		B319615422B9FC640076BE3F /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
-		B319615522B9FC640076BE3F /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
-		B319615622B9FC640076BE3F /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
-		B319615722B9FC640076BE3F /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
-		B319615822B9FC650076BE3F /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
-		B319615922B9FC650076BE3F /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
-		B319615A22B9FC650076BE3F /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
-		B319615B22B9FC650076BE3F /* RobotoCondensed-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Italic.ttf"; sourceTree = "<group>"; };
 		B319617122BA10580076BE3F /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		B3513D6922AAE2F30047D688 /* Storyboard+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Storyboard+Extensions.swift"; sourceTree = "<group>"; };
 		B3513D6C22AAE5970047D688 /* ImageHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
@@ -95,7 +59,7 @@
 		B3513D7322AAF1D60047D688 /* TileNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileNode.swift; sourceTree = "<group>"; };
 		B3513D7522AAFC290047D688 /* LineNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineNode.swift; sourceTree = "<group>"; };
 		B3513D7722AAFC600047D688 /* SCNVector3+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SCNVector3+Extensions.swift"; sourceTree = "<group>"; };
-		B363779F22AA854600450C6C /* ARInstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARInstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B363779F22AA854600450C6C /* SimulateIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimulateIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B36377A222AA854600450C6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B36377A422AA854600450C6C /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
 		B36377A722AA854600450C6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -154,39 +118,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B319612322B9FBCD0076BE3F /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				B319616E22B9FCEA0076BE3F /* fonts */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		B319616E22B9FCEA0076BE3F /* fonts */ = {
-			isa = PBXGroup;
-			children = (
-				B319615822B9FC650076BE3F /* Roboto-Black.ttf */,
-				B319615922B9FC650076BE3F /* Roboto-BlackItalic.ttf */,
-				B319615422B9FC640076BE3F /* Roboto-Bold.ttf */,
-				B319615522B9FC640076BE3F /* Roboto-BoldItalic.ttf */,
-				B319615722B9FC640076BE3F /* Roboto-Italic.ttf */,
-				B319614B22B9FC640076BE3F /* Roboto-Light.ttf */,
-				B319614F22B9FC640076BE3F /* Roboto-LightItalic.ttf */,
-				B319615022B9FC640076BE3F /* Roboto-Medium.ttf */,
-				B319615322B9FC640076BE3F /* Roboto-MediumItalic.ttf */,
-				B319615A22B9FC650076BE3F /* Roboto-Regular.ttf */,
-				B319614C22B9FC640076BE3F /* Roboto-Thin.ttf */,
-				B319615222B9FC640076BE3F /* Roboto-ThinItalic.ttf */,
-				B319614E22B9FC640076BE3F /* RobotoCondensed-Bold.ttf */,
-				B319614D22B9FC640076BE3F /* RobotoCondensed-BoldItalic.ttf */,
-				B319615B22B9FC650076BE3F /* RobotoCondensed-Italic.ttf */,
-				B319615122B9FC640076BE3F /* RobotoCondensed-Light.ttf */,
-				B319614A22B9FC640076BE3F /* RobotoCondensed-LightItalic.ttf */,
-				B319615622B9FC640076BE3F /* RobotoCondensed-Regular.ttf */,
-			);
-			path = fonts;
-			sourceTree = "<group>";
-		};
 		B3513D6B22AAE58E0047D688 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -208,7 +139,6 @@
 		B363779622AA854600450C6C = {
 			isa = PBXGroup;
 			children = (
-				B319612322B9FBCD0076BE3F /* Resources */,
 				B36377A122AA854600450C6C /* ARInstagram */,
 				B36377A022AA854600450C6C /* Products */,
 				143F75728658DFD86FF9FDFB /* Frameworks */,
@@ -219,7 +149,7 @@
 		B36377A022AA854600450C6C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B363779F22AA854600450C6C /* ARInstagram.app */,
+				B363779F22AA854600450C6C /* SimulateIt.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -338,7 +268,7 @@
 			);
 			name = ARInstagram;
 			productName = ARAlbum;
-			productReference = B363779F22AA854600450C6C /* ARInstagram.app */;
+			productReference = B363779F22AA854600450C6C /* SimulateIt.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -379,29 +309,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B319615C22B9FC650076BE3F /* RobotoCondensed-LightItalic.ttf in Resources */,
-				B319616622B9FC650076BE3F /* Roboto-Bold.ttf in Resources */,
-				B319616C22B9FC650076BE3F /* Roboto-Regular.ttf in Resources */,
-				B319616D22B9FC650076BE3F /* RobotoCondensed-Italic.ttf in Resources */,
 				B38EF15C22B0493300E39584 /* DiagonalTilesCell.xib in Resources */,
-				B319616322B9FC650076BE3F /* RobotoCondensed-Light.ttf in Resources */,
-				B319616122B9FC650076BE3F /* Roboto-LightItalic.ttf in Resources */,
-				B319615F22B9FC650076BE3F /* RobotoCondensed-BoldItalic.ttf in Resources */,
-				B319615D22B9FC650076BE3F /* Roboto-Light.ttf in Resources */,
-				B319616B22B9FC650076BE3F /* Roboto-BlackItalic.ttf in Resources */,
-				B319616222B9FC650076BE3F /* Roboto-Medium.ttf in Resources */,
-				B319616922B9FC650076BE3F /* Roboto-Italic.ttf in Resources */,
-				B319616822B9FC650076BE3F /* RobotoCondensed-Regular.ttf in Resources */,
-				B319615E22B9FC650076BE3F /* Roboto-Thin.ttf in Resources */,
 				B36377AD22AA854800450C6C /* LaunchScreen.storyboard in Resources */,
-				B319616422B9FC650076BE3F /* Roboto-ThinItalic.ttf in Resources */,
 				B36377AA22AA854800450C6C /* Assets.xcassets in Resources */,
 				B36377A822AA854600450C6C /* Main.storyboard in Resources */,
 				B38EF14C22B03F8900E39584 /* SingleTileCell.xib in Resources */,
-				B319616022B9FC650076BE3F /* RobotoCondensed-Bold.ttf in Resources */,
-				B319616522B9FC650076BE3F /* Roboto-MediumItalic.ttf in Resources */,
-				B319616722B9FC650076BE3F /* Roboto-BoldItalic.ttf in Resources */,
-				B319616A22B9FC650076BE3F /* Roboto-Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -635,8 +547,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nativlevy.arinstagramss.cg;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cg.simulateit;
+				PRODUCT_NAME = SimulateIt;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -656,8 +568,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nativlevy.arinstagramss.cg;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cg.simulateit;
+				PRODUCT_NAME = SimulateIt;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;

@@ -23,11 +23,11 @@ class PyramidTilesCell: UICollectionViewCell, CopyableCell {
         let cell = loadNib() as! PyramidTilesCell
         cell.frame = frame
         cell.level1Image1.iv.image = level1Image1.iv.image
-        cell.level1Image2.iv.image = level1Image2.iv.image
-        cell.level1Image3.iv.image = level1Image3.iv.image
-        cell.level2Image1.iv.image = level2Image1.iv.image
-        cell.level2Image2.iv.image = level2Image2.iv.image
-        cell.level3Image1.iv.image = level3Image1.iv.image
+//        cell.level1Image2.iv.image = level1Image2.iv.image
+//        cell.level1Image3.iv.image = level1Image3.iv.image
+//        cell.level2Image1.iv.image = level2Image1.iv.image
+//        cell.level2Image2.iv.image = level2Image2.iv.image
+//        cell.level3Image1.iv.image = level3Image1.iv.image
         return cell
     }
     
