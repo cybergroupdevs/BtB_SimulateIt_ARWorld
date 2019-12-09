@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="uyW-kI-QhD">
             <objects>
-                <viewController storyboardIdentifier="ARViewController" id="xLz-O9-XyC" customClass="ARViewController" customModule="ARInstagram" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ARViewController" id="xLz-O9-XyC" customClass="ARViewController" customModule="SimulateIt" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Tgy-l7-WUp">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -31,7 +31,7 @@
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <state key="normal" title="Filters">
+                                                <state key="normal" title="Capture">
                                                     <color key="titleColor" name="windowFrameColor" catalog="System" colorSpace="catalog"/>
                                                 </state>
                                                 <connections>
@@ -69,7 +69,7 @@
                                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         </collectionViewFlowLayout>
                                         <cells>
-                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="FilterCell" reuseIdentifier="FilterCell" id="CUo-bf-j7l" userLabel="FilterCell" customClass="FilterCell" customModule="ARInstagram" customModuleProvider="target">
+                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="FilterCell" reuseIdentifier="FilterCell" id="CUo-bf-j7l" userLabel="FilterCell" customClass="FilterCell" customModule="SimulateIt" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="5" width="110" height="110"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -107,7 +107,7 @@
                                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         </collectionViewFlowLayout>
                                         <cells>
-                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="FrameCell" reuseIdentifier="FrameCell" id="8jO-Qm-zL1" userLabel="FrameCell" customClass="FrameCell" customModule="ARInstagram" customModuleProvider="target">
+                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="FrameCell" reuseIdentifier="FrameCell" id="8jO-Qm-zL1" userLabel="FrameCell" customClass="FrameCell" customModule="SimulateIt" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="5" width="110" height="110"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -229,7 +229,7 @@
         <!--Choose Tiles Layout-->
         <scene sceneID="sVv-Jj-jv2">
             <objects>
-                <viewController id="R8W-B8-TO2" customClass="TilesLayoutViewController" customModule="ARInstagram" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="R8W-B8-TO2" customClass="TilesLayoutViewController" customModule="SimulateIt" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vZI-co-ijh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -244,7 +244,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="TileLayoutCell" reuseIdentifier="TileLayoutCell" id="ti8-nQ-kzq" customClass="TileLayoutCell" customModule="ARInstagram" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="TileLayoutCell" reuseIdentifier="TileLayoutCell" id="ti8-nQ-kzq" customClass="TileLayoutCell" customModule="SimulateIt" customModuleProvider="target">
                                         <rect key="frame" x="7" y="0.0" width="400" height="300"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">

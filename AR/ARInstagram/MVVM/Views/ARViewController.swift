@@ -1,9 +1,3 @@
-//
-//  ViewController.swift
-//  ARAlbum
-//
-//  Created by nativ levy on 07/06/2019.
-//
 
 import UIKit
 import ARKit
@@ -151,7 +145,7 @@ class ARViewController: UIViewController {
                 node.name = "tiles_container"
             case .single:
                 addNodeAt(position: node.position, image: images[0])
-            case .column:
+            case .diagonal:
                 let position = node.position
                 var leftTilePosition = position
                 leftTilePosition.z -= 0.4
@@ -285,7 +279,7 @@ class ARViewController: UIViewController {
         let sessionConfig: ARWorldTrackingConfiguration = ARWorldTrackingConfiguration()
         sessionConfig.planeDetection = .vertical
         sceneView.session.delegate = self
-        sceneView.debugOptions = .showFeaturePoints
+        //sceneView.debugOptions = .showFeaturePoints
         sceneView.antialiasingMode = .multisampling4X
         sceneView.automaticallyUpdatesLighting = true
         sceneView.preferredFramesPerSecond = 60
@@ -310,13 +304,34 @@ class ARViewController: UIViewController {
     }
     
     @IBAction func filtersTapped(_ sender: Any) {
-        filterBtn.isSelected = true
-        framesBtn.isSelected = false
-        filtersCollectionView.isHidden = false
-        framesCollectionView.isHidden = true
-        filtersCollectionView.reloadData()
+        
+        takeScreenshot()
+//        filterBtn.isSelected = true
+//        framesBtn.isSelected = false
+//        filtersCollectionView.isHidden = false
+//        framesColle ctionView.isHidden = true
+//        filtersCollectionView.reloadData()
     }
     
+    open func takeScreenshot(_ shouldSave: Bool = true) {
+                 let snapShot = self.sceneView.snapshot()
+        
+        UIImageWriteToSavedPhotosAlbum(snapShot, self, #selector(image(_:didFinishSavingWithError:contextInfo:)), nil)
+     }
+    
+    @objc func image(_ image: UIImage, didFinishSavingWithError error: Error?, contextInfo: UnsafeRawPointer) {
+        if let error = error {
+            // we got back an error!
+            let ac = UIAlertController(title: "Save error", message: error.localizedDescription, preferredStyle: .alert)
+            ac.addAction(UIAlertAction(title: "OK", style: .default))
+            present(ac, animated: true)
+        } else {
+            let ac = UIAlertController(title: "", message: "Image Saved!", preferredStyle: .alert)
+            ac.addAction(UIAlertAction(title: "OK", style: .default))
+            present(ac, animated: true)
+        }
+    }
+
     @IBAction func framesTapped(_ sender: Any) {
         filterBtn.isSelected = false
         framesBtn.isSelected = true

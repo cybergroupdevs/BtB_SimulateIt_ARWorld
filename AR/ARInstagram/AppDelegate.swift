@@ -1,9 +1,3 @@
-//
-//  AppDelegate.swift
-//  ARAlbum
-//
-//  Created by nativ levy on 07/06/2019.
-//
 
 import UIKit
 

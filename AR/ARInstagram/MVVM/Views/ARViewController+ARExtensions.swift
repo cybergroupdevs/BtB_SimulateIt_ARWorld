@@ -17,10 +17,10 @@ extension ARViewController: ARSCNViewDelegate, ARSessionDelegate {
         
         guard let planeAnchor = anchor as? ARPlaneAnchor, planeAnchor.alignment == .vertical else { return }
         // Bigger the 1 meter
-        if planeAnchor.extent.x * planeAnchor.extent.z > 0.1 { // TODO set to 1
+       // if planeAnchor.extent.x * planeAnchor.extent.z > 0.1 { // TODO set to 1
             addTileNodeAnchor(worldTransform: anchor.transform)
             return
-        }
+        //}
         let grid = Grid(anchor: planeAnchor)
         self.grids.append(grid)
         node.addChildNode(grid)
