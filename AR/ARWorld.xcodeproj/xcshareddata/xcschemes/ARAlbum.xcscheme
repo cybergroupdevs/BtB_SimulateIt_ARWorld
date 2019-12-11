@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B363779E22AA854600450C6C"
                BuildableName = "SimulateIt.app"
-               BlueprintName = "ARInstagram"
-               ReferencedContainer = "container:ARInstagram.xcodeproj">
+               BlueprintName = "ARWorld"
+               ReferencedContainer = "container:ARWorld.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,8 +32,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B363779E22AA854600450C6C"
             BuildableName = "SimulateIt.app"
-            BlueprintName = "ARInstagram"
-            ReferencedContainer = "container:ARInstagram.xcodeproj">
+            BlueprintName = "ARWorld"
+            ReferencedContainer = "container:ARWorld.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <Testables>
@@ -55,8 +55,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B363779E22AA854600450C6C"
             BuildableName = "SimulateIt.app"
-            BlueprintName = "ARInstagram"
-            ReferencedContainer = "container:ARInstagram.xcodeproj">
+            BlueprintName = "ARWorld"
+            ReferencedContainer = "container:ARWorld.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,8 +72,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B363779E22AA854600450C6C"
             BuildableName = "SimulateIt.app"
-            BlueprintName = "ARInstagram"
-            ReferencedContainer = "container:ARInstagram.xcodeproj">
+            BlueprintName = "ARWorld"
+            ReferencedContainer = "container:ARWorld.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

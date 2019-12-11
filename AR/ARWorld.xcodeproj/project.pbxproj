@@ -139,7 +139,7 @@
 		B363779622AA854600450C6C = {
 			isa = PBXGroup;
 			children = (
-				B36377A122AA854600450C6C /* ARInstagram */,
+				B36377A122AA854600450C6C /* ARWorld */,
 				B36377A022AA854600450C6C /* Products */,
 				143F75728658DFD86FF9FDFB /* Frameworks */,
 				EBA2EF6664B58C079FE3F56D /* Pods */,
@@ -154,7 +154,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B36377A122AA854600450C6C /* ARInstagram */ = {
+		B36377A122AA854600450C6C /* ARWorld */ = {
 			isa = PBXGroup;
 			children = (
 				B36377B422AA8C1800450C6C /* MVVM */,
@@ -165,7 +165,7 @@
 				B36377AB22AA854800450C6C /* LaunchScreen.storyboard */,
 				B36377AE22AA854800450C6C /* Info.plist */,
 			);
-			path = ARInstagram;
+			path = ARWorld;
 			sourceTree = "<group>";
 		};
 		B36377B422AA8C1800450C6C /* MVVM */ = {
@@ -252,9 +252,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B363779E22AA854600450C6C /* ARInstagram */ = {
+		B363779E22AA854600450C6C /* ARWorld */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B36377B122AA854800450C6C /* Build configuration list for PBXNativeTarget "ARInstagram" */;
+			buildConfigurationList = B36377B122AA854800450C6C /* Build configuration list for PBXNativeTarget "ARWorld" */;
 			buildPhases = (
 				EA8C79F399B64BF6C5EA9923 /* [CP] Check Pods Manifest.lock */,
 				B363779B22AA854600450C6C /* Sources */,
@@ -266,7 +266,7 @@
 			);
 			dependencies = (
 			);
-			name = ARInstagram;
+			name = ARWorld;
 			productName = ARAlbum;
 			productReference = B363779F22AA854600450C6C /* SimulateIt.app */;
 			productType = "com.apple.product-type.application";
@@ -286,7 +286,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B363779A22AA854600450C6C /* Build configuration list for PBXProject "ARInstagram" */;
+			buildConfigurationList = B363779A22AA854600450C6C /* Build configuration list for PBXProject "ARWorld" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -299,7 +299,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B363779E22AA854600450C6C /* ARInstagram */,
+				B363779E22AA854600450C6C /* ARWorld */,
 			);
 		};
 /* End PBXProject section */
@@ -542,7 +542,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YB88TCR4VP;
-				INFOPLIST_FILE = "$(SRCROOT)/ARInstagram/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/ARWorld/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -563,7 +563,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YB88TCR4VP;
-				INFOPLIST_FILE = "$(SRCROOT)/ARInstagram/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/ARWorld/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -579,7 +579,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B363779A22AA854600450C6C /* Build configuration list for PBXProject "ARInstagram" */ = {
+		B363779A22AA854600450C6C /* Build configuration list for PBXProject "ARWorld" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B36377AF22AA854800450C6C /* Debug */,
@@ -588,7 +588,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B36377B122AA854800450C6C /* Build configuration list for PBXNativeTarget "ARInstagram" */ = {
+		B36377B122AA854800450C6C /* Build configuration list for PBXNativeTarget "ARWorld" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B36377B222AA854800450C6C /* Debug */,
