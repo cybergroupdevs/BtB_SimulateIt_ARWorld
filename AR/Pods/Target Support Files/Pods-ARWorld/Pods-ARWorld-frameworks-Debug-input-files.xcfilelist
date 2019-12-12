@@ -1,4 +1,4 @@
-${PODS_ROOT}/Target Support Files/Pods-ARInstagram/Pods-ARInstagram-frameworks.sh
+${PODS_ROOT}/Target Support Files/Pods-ARWorld/Pods-ARWorld-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Cache/Cache.framework
 ${BUILT_PRODUCTS_DIR}/Gallery/Gallery.framework
 ${BUILT_PRODUCTS_DIR}/Imaginary/Imaginary.framework

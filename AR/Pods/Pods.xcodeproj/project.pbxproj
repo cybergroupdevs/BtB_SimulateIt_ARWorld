@@ -8,14 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		000B8AC517E16D4E535586FC6B499B3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91D7891494AE476BC5B4532B9C5C66BE /* Foundation.framework */; };
-		00B6C20CCBAFF4D18D63F2D7CDBFC853 /* Pods-ARInstagram-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4C1CCE71C0035914AD0953D45B56468 /* Pods-ARInstagram-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		01A663FA888D61A0B5BC2076264A147E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91D7891494AE476BC5B4532B9C5C66BE /* Foundation.framework */; };
 		025EED6A44FE486DD84DA9D38AC02AA0 /* Thenable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E6F29163CEB14B1EF3FCE84D6A1F3E /* Thenable.swift */; };
 		032F9F325C22D3CDCC4561EDA73DD653 /* Lightbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D76240B2D1309480CC11F30D0BB923F2 /* Lightbox-dummy.m */; };
 		073871A3747192F79374871F8CF68AF9 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAC60610CD7197361C2B8B261A01343 /* Video.swift */; };
 		0CA80ED7E59E6BCE64CEEE649A3C6D2F /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = E97D8C9CF24C383611A435EF4CF34C35 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		128A7A6B9FAB0B795D06E78BF7187503 /* VideoBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BE709D6FD83534413314C89257A3DB /* VideoBox.swift */; };
-		14C87BB33C3C19807327EA6E36AADCAA /* Pods-ARInstagram-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0180C2EECEDB668E165DEF35F399CA /* Pods-ARInstagram-dummy.m */; };
 		15901C26A398A72C746D1369042356B6 /* join.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1A415DCAF570FB9EDD6332497925ED /* join.m */; };
 		179400172B2218EE5836A8DE1583A361 /* TransformerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015E6AEC1DB4207509FB8653AC2499DE /* TransformerFactory.swift */; };
 		17BE8A441E30768D62AD5DA57D9EA576 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D603C5F204B4069AE1153696389B9627 /* ImageDownloader.swift */; };
@@ -26,6 +23,7 @@
 		208EDAA1D258CAA2BD08E462359D4FFF /* when.m in Sources */ = {isa = PBXBuildFile; fileRef = 6431C2FC59DAE8A94E68140E1F455BE5 /* when.m */; };
 		224FF68A47240842A3165306AE9EEA3C /* Transformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A755736D693AA068E10261112448013 /* Transformer.swift */; };
 		23A68B129509F7559A319297BC8FB578 /* InfoLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441E36EEA8B48EFF0B10DF2ED7E319F1 /* InfoLabel.swift */; };
+		23D6F9BBA38008190FA7134AF8C36765 /* Pods-ARWorld-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F45A175AFD35780F08950EC5E4951CA6 /* Pods-ARWorld-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		243195A7413D1FE95D0A00D44FA78684 /* Lightbox.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6060C007888CA56128B982188ED5AF66 /* Lightbox.bundle */; };
 		247CA300C1FAF5D97497B30A22F80022 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0370B5CA839BC84AEBD60BFAB2161A1C /* FooterView.swift */; };
 		24CC43155B81780C4B1582AFE834B5FA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BCF07F4FA137A8E90D111AC67149ACB /* CoreLocation.framework */; };
@@ -153,6 +151,7 @@
 		B5B9915F785CB47C5C07F0B698911B00 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34868E8964145232CB175F935B66402E /* SVIndefiniteAnimatedView.m */; };
 		B6819A250104F4BFCD199E5B74E155A8 /* DataSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3148BC5B767FB2C081CCA8372809830 /* DataSerializer.swift */; };
 		B758241FBF6592EFBE6283378D16F9FD /* NSObject+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEE9A11A03010BB49B3EE320F7A0A31 /* NSObject+Promise.swift */; };
+		B819633FD03A9D6A0A9DC7993C16BA02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91D7891494AE476BC5B4532B9C5C66BE /* Foundation.framework */; };
 		B9F0F3592BABA4E1356D00682ACCAE73 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487531390A148C050610C42E7EEFE45A /* CameraController.swift */; };
 		BA51C16580D297FED9511DE38C42744B /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E030E737E770DB45ECF94EED478544 /* UIImageView+Extensions.swift */; };
 		BC91BB0DA0EB93CD895AFBD2FAAB7766 /* GalleryBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57851EB4FE31717D89BDF1F8D4010CAB /* GalleryBundle.swift */; };
@@ -186,6 +185,7 @@
 		DBA51B7545BB0C44F021F91926FF5E7F /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B0C344C9F57E7CD3DBF3563C2FF7BA /* StackView.swift */; };
 		DBEF0F49E57B3321CC7067EEF33AB582 /* NSNotificationCenter+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 471D9BE9680C479C3A146F74CC6D533E /* NSNotificationCenter+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE12057AB8895931A0E9499619C5CFC8 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C7CCE5A09C311D387B7C58E3A32159A /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF5FDD04D9937DB907A55CA95AED3E06 /* Pods-ARWorld-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D199FE861EDCA8EE017EF7A599AF69 /* Pods-ARWorld-dummy.m */; };
 		E0186A63060F0EB3676F95CD0ACE0E18 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 351D921D08E41D9C31566733FC806F23 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E02061A3F721CE95F6999C1F27D1F7B9 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92F6E3F058EAB59D9018A160F15A57EE /* AVKit.framework */; };
 		E0707649EA787FF127A153AA5578025D /* EditInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0FE06DC34A87D21AB2FBBD7B5829CA /* EditInfo.swift */; };
@@ -211,13 +211,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		011AC87E477395711E1084C3223864D2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0BC19EF41E39F436CF517D297B712DBD;
-			remoteInfo = Gallery;
-		};
 		213BACC1A180B489EFCB1D7FFE8F7C85 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -225,40 +218,47 @@
 			remoteGlobalIDString = 9513DC9A6C5DA07EDB2094920BC9EE79;
 			remoteInfo = Cache;
 		};
-		2BCFD6E07DF36882ABFE864FC8097811 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9513DC9A6C5DA07EDB2094920BC9EE79;
-			remoteInfo = Cache;
-		};
-		48535013EF465709DB261503B6EF0EF3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1C8D67D8B72D6BA42CCEDB648537A340;
-			remoteInfo = SVProgressHUD;
-		};
-		4EDCFAEC1E866822F8B79F9CC0BE8F71 /* PBXContainerItemProxy */ = {
+		3613AB222F243247002032DE230A5248 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3F2BF4C4909B9153968DCBFEF51DB37A;
 			remoteInfo = Imaginary;
 		};
-		585FAAE48EEE5ECAD088411CCFF96A44 /* PBXContainerItemProxy */ = {
+		3D23A145B817C912229A4F93FF12CE95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C8D67D8B72D6BA42CCEDB648537A340;
+			remoteInfo = SVProgressHUD;
+		};
+		695F747BA95835A45526E695E68F3999 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7C579CE66A1E7A9AA33CA5F97F9C22C5;
 			remoteInfo = PromiseKit;
 		};
-		88C89B33C6EB1180207478889CD8AD70 /* PBXContainerItemProxy */ = {
+		8666D5EFFD96F759D2CC6F11068B87E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2FF67131BF0A388437610695C3724017;
 			remoteInfo = Lightbox;
+		};
+		9C5D9697AE242C610B9A10756974000B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BC19EF41E39F436CF517D297B712DBD;
+			remoteInfo = Gallery;
+		};
+		B3D1DEDD0A4E76090C51A58897EA4D97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9513DC9A6C5DA07EDB2094920BC9EE79;
+			remoteInfo = Cache;
 		};
 		E46272D86C13C72502335117F369FBB2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -294,11 +294,9 @@
 		14128BF4E0851EC480D4B7C64BC59A63 /* Option.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Option.swift; path = Sources/Shared/Library/Option.swift; sourceTree = "<group>"; };
 		14999487A7E03E7E15DEF834EEAC1E09 /* PromiseKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromiseKit-umbrella.h"; sourceTree = "<group>"; };
 		1570E76EC0D4E54A20AC761313601AC6 /* Cache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		17BB62714354866201B846ED452CD88B /* Pods_ARInstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ARInstagram.framework; path = "Pods-ARInstagram.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A5BB9F3D23DA2CA94E1EFF32C296092 /* UIView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Extensions.swift"; path = "Sources/Utils/Extensions/UIView+Extensions.swift"; sourceTree = "<group>"; };
 		1AA1399F7D9E2D6949B0D32C2B14D021 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Sources/Configuration.swift; sourceTree = "<group>"; };
 		1B4605EB4BA9E79E72F7195B0CDCBF3C /* MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MD5.swift; path = Source/Shared/Library/MD5.swift; sourceTree = "<group>"; };
-		1BB2BB941B8CE8621D1C0A028008B0D6 /* Pods-ARInstagram-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ARInstagram-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1CAFA51D3657569BDB86004F0524D795 /* LayoutConfigurable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConfigurable.swift; path = Source/Library/LayoutConfigurable.swift; sourceTree = "<group>"; };
 		1D034BC75692BDCA3B49F147B9561E71 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/Shared/Library/Result.swift; sourceTree = "<group>"; };
 		1D1674B1F7EBF62008785FAAD9B93282 /* Config.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Config.swift; path = Sources/Utils/Config.swift; sourceTree = "<group>"; };
@@ -312,6 +310,8 @@
 		256A2496F653D1B247EE7EEABD16DA16 /* Lightbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Lightbox-prefix.pch"; sourceTree = "<group>"; };
 		260AE2805CFEDC5EB91533AD8C1251A6 /* Lightbox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Lightbox.xcconfig; sourceTree = "<group>"; };
 		26496E14DC6B613F3802724D8305D85B /* ImagesLibrary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagesLibrary.swift; path = Sources/Images/ImagesLibrary.swift; sourceTree = "<group>"; };
+		26D199FE861EDCA8EE017EF7A599AF69 /* Pods-ARWorld-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ARWorld-dummy.m"; sourceTree = "<group>"; };
+		26DCE565154917710B94000B2F0F5F18 /* Pods-ARWorld-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ARWorld-acknowledgements.markdown"; sourceTree = "<group>"; };
 		273E89C35FCF81B7CDDD4CDD8EAAD288 /* Entry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Entry.swift; path = Source/Shared/Library/Entry.swift; sourceTree = "<group>"; };
 		28321EE616EC9D6F2FE302D01D33C847 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Sources/Utils/Utils.swift; sourceTree = "<group>"; };
 		291121C58716CEB57D7DB1F2C4C72B92 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -335,11 +335,12 @@
 		441E36EEA8B48EFF0B10DF2ED7E319F1 /* InfoLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InfoLabel.swift; path = Source/Views/InfoLabel.swift; sourceTree = "<group>"; };
 		44BE709D6FD83534413314C89257A3DB /* VideoBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoBox.swift; path = Sources/Videos/VideoBox.swift; sourceTree = "<group>"; };
 		44F8AFBB52E6C505CB7F86DF8BDC61F8 /* VideosController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideosController.swift; path = Sources/Videos/VideosController.swift; sourceTree = "<group>"; };
+		452B0AFD937BDF44F2059EBC74631BF5 /* Pods_ARWorld.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ARWorld.framework; path = "Pods-ARWorld.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		471D9BE9680C479C3A146F74CC6D533E /* NSNotificationCenter+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNotificationCenter+AnyPromise.h"; path = "Extensions/Foundation/Sources/NSNotificationCenter+AnyPromise.h"; sourceTree = "<group>"; };
+		48193AB1DA41B56233825FFD6857643A /* Pods-ARWorld-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ARWorld-frameworks.sh"; sourceTree = "<group>"; };
 		4839ACA053EFB6CF25272430B180126B /* Lightbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Lightbox.framework; path = Lightbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		487531390A148C050610C42E7EEFE45A /* CameraController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraController.swift; path = Sources/Camera/CameraController.swift; sourceTree = "<group>"; };
 		48B0D53EA54C50222FEF12AD6D4B548D /* Gallery.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Gallery.modulemap; sourceTree = "<group>"; };
-		4B0180C2EECEDB668E165DEF35F399CA /* Pods-ARInstagram-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ARInstagram-dummy.m"; sourceTree = "<group>"; };
 		4B888B3385DA9319F722469B52FE2005 /* race.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = race.swift; path = Sources/race.swift; sourceTree = "<group>"; };
 		4C61D63537C261CE85ADF2E5E7529924 /* String+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extensions.swift"; path = "Sources/Utils/Extensions/String+Extensions.swift"; sourceTree = "<group>"; };
 		4D00FC193622EDE703BDD196C853C61F /* ArrowButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArrowButton.swift; path = Sources/Utils/View/ArrowButton.swift; sourceTree = "<group>"; };
@@ -349,7 +350,6 @@
 		503D929694234FA844E6BBACF2ED186B /* NSURLSession+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSURLSession+Promise.swift"; path = "Extensions/Foundation/Sources/NSURLSession+Promise.swift"; sourceTree = "<group>"; };
 		505C95CEAB984161B2D6744E346F85F6 /* FrameView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FrameView.swift; path = Sources/Utils/View/FrameView.swift; sourceTree = "<group>"; };
 		513350AD8E58BAE00586245BA6FEAF06 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Photos.framework; sourceTree = DEVELOPER_DIR; };
-		514CB86137FB1D452FC5049171239FA2 /* Pods-ARInstagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARInstagram.release.xcconfig"; sourceTree = "<group>"; };
 		542AAD893BD52ABC269737DD7C18EFF8 /* Imaginary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Imaginary.modulemap; sourceTree = "<group>"; };
 		55BE9C9497B982B873C4F71003D49A4F /* KeyObservationRegistry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyObservationRegistry.swift; path = Source/Shared/Storage/KeyObservationRegistry.swift; sourceTree = "<group>"; };
 		5635D0135983F506E764411482EB979C /* MultipleImageFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipleImageFetcher.swift; path = Sources/Shared/Fetcher/MultipleImageFetcher.swift; sourceTree = "<group>"; };
@@ -394,15 +394,14 @@
 		89B4D715B97284F4D9211AD83F8BB3CA /* ImageDisplayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDisplayer.swift; path = Sources/Shared/Library/ImageDisplayer.swift; sourceTree = "<group>"; };
 		8B5AA723AF23E6A3C2822896864BF193 /* PhotosUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotosUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/PhotosUI.framework; sourceTree = DEVELOPER_DIR; };
 		8C7CCE5A09C311D387B7C58E3A32159A /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
-		8D0346B2A9300522BF472FCA5DA15D8D /* Pods-ARInstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARInstagram.debug.xcconfig"; sourceTree = "<group>"; };
 		8D0DDACC5CB9A283780D331E6E3E3AE5 /* after.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = after.swift; path = Sources/after.swift; sourceTree = "<group>"; };
 		8DC9389E3BDD1A3FCB4434794C1F35B0 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Extensions.swift"; path = "Source/iOS/UIImage+Extensions.swift"; sourceTree = "<group>"; };
 		8DF14059C322F0903322A7F99DE09482 /* PromiseKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PromiseKit.modulemap; sourceTree = "<group>"; };
 		8E3B2E9A89EE807BF5D4C209878B6F95 /* PMKUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMKUIKit.h; path = Extensions/UIKit/Sources/PMKUIKit.h; sourceTree = "<group>"; };
 		8EC236730B2A4AD041D344614B45B2DD /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Sources/Error.swift; sourceTree = "<group>"; };
-		8F64243FC68DB8B05FF4439D1C48F230 /* Pods-ARInstagram-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ARInstagram-frameworks.sh"; sourceTree = "<group>"; };
 		919FD2223539DB3C9CDFFD84929ABFD5 /* TripleButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TripleButton.swift; path = Sources/Camera/TripleButton.swift; sourceTree = "<group>"; };
 		91D7891494AE476BC5B4532B9C5C66BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		924364C36745B4C1629D69EEC014B6CE /* Pods-ARWorld-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ARWorld-acknowledgements.plist"; sourceTree = "<group>"; };
 		9271F920DD72D88AD56B5198CE037945 /* Storage+Transform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Storage+Transform.swift"; path = "Source/Shared/Storage/Storage+Transform.swift"; sourceTree = "<group>"; };
 		92EA34ABD375CFDEE856B11A959B2C20 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		92F6E3F058EAB59D9018A160F15A57EE /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AVKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -421,6 +420,7 @@
 		A4E6F29163CEB14B1EF3FCE84D6A1F3E /* Thenable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Thenable.swift; path = Sources/Thenable.swift; sourceTree = "<group>"; };
 		A529492D8354F631F458B5168D46B2F8 /* LightboxConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LightboxConfig.swift; path = Source/LightboxConfig.swift; sourceTree = "<group>"; };
 		A54A23E8F6A065094E7D981EA963F4EA /* ImageCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCell.swift; path = Sources/Images/ImageCell.swift; sourceTree = "<group>"; };
+		A73BA2FD5291D04DA279FF450C570075 /* Pods-ARWorld.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARWorld.debug.xcconfig"; sourceTree = "<group>"; };
 		A793490BE1B176CDFF1A9A4F5735E2E4 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
 		A7DAC6D1DE1ED19941A84EABE828EB4A /* UIViewController+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+AnyPromise.h"; path = "Extensions/UIKit/Sources/UIViewController+AnyPromise.h"; sourceTree = "<group>"; };
 		A8EC60D6804D647FCD95230228CDE484 /* Imaginary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Imaginary.framework; path = Imaginary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -434,7 +434,7 @@
 		B396E99800FAB964B49E983AA9FD032B /* DiskConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiskConfig.swift; path = Source/Shared/Configuration/DiskConfig.swift; sourceTree = "<group>"; };
 		B3EECB500954DA0347A814C91095066D /* CustomStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomStringConvertible.swift; path = Sources/CustomStringConvertible.swift; sourceTree = "<group>"; };
 		B431F3AA675914E7C6633EB3E0F5A311 /* Catchable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Catchable.swift; path = Sources/Catchable.swift; sourceTree = "<group>"; };
-		B4C1CCE71C0035914AD0953D45B56468 /* Pods-ARInstagram-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ARInstagram-umbrella.h"; sourceTree = "<group>"; };
+		B64697D1D566B6CF166B6F862048EA86 /* Pods-ARWorld-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ARWorld-Info.plist"; sourceTree = "<group>"; };
 		B7A3D2E772BDB60E384E996469AE3902 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
 		B8C7B9B05ECE4E41E5E7D5377314BC8A /* LocationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationManager.swift; path = Sources/Utils/LocationManager.swift; sourceTree = "<group>"; };
 		BC4C8FAEFCD4D6550A393E04D830CF9B /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
@@ -454,9 +454,9 @@
 		CCA2E1F9DC7BE1C1CDF43FACEB6EA753 /* Optional+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Optional+Extension.swift"; path = "Source/Shared/Library/Optional+Extension.swift"; sourceTree = "<group>"; };
 		CCD80F8ADF36BD40AF209BEB863FE777 /* ImageViewDisplayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageViewDisplayer.swift; path = Sources/iOS/ImageViewDisplayer.swift; sourceTree = "<group>"; };
 		CCD857669216E7954D143AA4AB1CD17E /* Cache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cache-dummy.m"; sourceTree = "<group>"; };
-		CD05288B527ACF3D3E3985A6233DAC64 /* Pods-ARInstagram.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ARInstagram.modulemap"; sourceTree = "<group>"; };
 		CE33612E15762B77ADE67744145E7D4D /* Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Promise.swift; path = Sources/Promise.swift; sourceTree = "<group>"; };
 		D04EB8BB74D14CAC258B98013196AB0E /* Process+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Process+Promise.swift"; path = "Extensions/Foundation/Sources/Process+Promise.swift"; sourceTree = "<group>"; };
+		D21448F65FF6AC0277652F3D21A11E80 /* Pods-ARWorld.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ARWorld.modulemap"; sourceTree = "<group>"; };
 		D2A12F7BFA6922B1E2E7C1F47BFED937 /* Date+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Extensions.swift"; path = "Source/Shared/Extensions/Date+Extensions.swift"; sourceTree = "<group>"; };
 		D32B4299F92AF3C76AC20440E211155B /* Resolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resolver.swift; path = Sources/Resolver.swift; sourceTree = "<group>"; };
 		D56E05A21D7A5C46BCB19BDD44D6004B /* HybridStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HybridStorage.swift; path = Source/Shared/Storage/HybridStorage.swift; sourceTree = "<group>"; };
@@ -464,8 +464,8 @@
 		D603C5F204B4069AE1153696389B9627 /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = Sources/Shared/Fetcher/ImageDownloader.swift; sourceTree = "<group>"; };
 		D6579DCA5DB790B2E3E5FE517B9EB3EE /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
 		D76240B2D1309480CC11F30D0BB923F2 /* Lightbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Lightbox-dummy.m"; sourceTree = "<group>"; };
-		D88E6AF2F7C2B62E3AE0E2F33BFAF36F /* Pods-ARInstagram-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ARInstagram-Info.plist"; sourceTree = "<group>"; };
 		D88EE61E9518E0B73FB8D49D2C1E414D /* Decompressor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Decompressor.swift; path = Sources/iOS/Decompressor.swift; sourceTree = "<group>"; };
+		D9B4A99C850C5D64C80607EA3EB43AF9 /* Pods-ARWorld.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARWorld.release.xcconfig"; sourceTree = "<group>"; };
 		D9C649F4434DC4A657D18CE26C806A76 /* AnyPromise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyPromise.swift; path = Sources/AnyPromise.swift; sourceTree = "<group>"; };
 		DB65AB290465B9CF17DF8B7E5FC82B5A /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Sources/Shared/Library/Configuration.swift; sourceTree = "<group>"; };
 		DC5440E1CFFC2095E2B155122F53C839 /* HeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeaderView.swift; path = Source/Views/HeaderView.swift; sourceTree = "<group>"; };
@@ -492,7 +492,7 @@
 		EED92DB8AC446F27E2F8EA550CF87661 /* Guarantee.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Guarantee.swift; path = Sources/Guarantee.swift; sourceTree = "<group>"; };
 		F1E13A5C9F33A41C3D7A9631C0F47AFB /* SyncStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SyncStorage.swift; path = Source/Shared/Storage/SyncStorage.swift; sourceTree = "<group>"; };
 		F3BC26EBC37967BD287DAEE891400E2A /* DropdownController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropdownController.swift; path = Sources/Utils/Dropdown/DropdownController.swift; sourceTree = "<group>"; };
-		F4B15387B061D695376F2128FD0D6DEC /* Pods-ARInstagram-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ARInstagram-acknowledgements.plist"; sourceTree = "<group>"; };
+		F45A175AFD35780F08950EC5E4951CA6 /* Pods-ARWorld-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ARWorld-umbrella.h"; sourceTree = "<group>"; };
 		F59E2CDA6344C5205DE4B5ABF1DE9475 /* Cache-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cache-umbrella.h"; sourceTree = "<group>"; };
 		F8DB05232B417C8F7265977D4989123D /* NSURLSession+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLSession+AnyPromise.m"; path = "Extensions/Foundation/Sources/NSURLSession+AnyPromise.m"; sourceTree = "<group>"; };
 		FB02A620F799EEBA994B0D49D999A4C0 /* Imaginary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Imaginary-Info.plist"; sourceTree = "<group>"; };
@@ -508,6 +508,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				000B8AC517E16D4E535586FC6B499B3C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DE9CCD9C2B1011122303E4CE9577675 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B819633FD03A9D6A0A9DC7993C16BA02 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,14 +549,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A9F565E9E4DBA0E5C61B142C3F4ECD2D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				01A663FA888D61A0B5BC2076264A147E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B210D2AEFCF72548B979E85A3DDC8D73 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -575,23 +575,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B167AEE5B31E112911EC0ACEACC90FB /* Pods-ARInstagram */ = {
-			isa = PBXGroup;
-			children = (
-				CD05288B527ACF3D3E3985A6233DAC64 /* Pods-ARInstagram.modulemap */,
-				1BB2BB941B8CE8621D1C0A028008B0D6 /* Pods-ARInstagram-acknowledgements.markdown */,
-				F4B15387B061D695376F2128FD0D6DEC /* Pods-ARInstagram-acknowledgements.plist */,
-				4B0180C2EECEDB668E165DEF35F399CA /* Pods-ARInstagram-dummy.m */,
-				8F64243FC68DB8B05FF4439D1C48F230 /* Pods-ARInstagram-frameworks.sh */,
-				D88E6AF2F7C2B62E3AE0E2F33BFAF36F /* Pods-ARInstagram-Info.plist */,
-				B4C1CCE71C0035914AD0953D45B56468 /* Pods-ARInstagram-umbrella.h */,
-				8D0346B2A9300522BF472FCA5DA15D8D /* Pods-ARInstagram.debug.xcconfig */,
-				514CB86137FB1D452FC5049171239FA2 /* Pods-ARInstagram.release.xcconfig */,
-			);
-			name = "Pods-ARInstagram";
-			path = "Target Support Files/Pods-ARInstagram";
-			sourceTree = "<group>";
-		};
 		101EE11ECF45389A4AD6135DB6CB8B75 /* PromiseKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -745,20 +728,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5B3141628F1F11171E5C45CD8CB9E14D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				736B64357A6C420C3A7062C6D479AC7F /* Cache.framework */,
-				C672811526EB10879FAA25858B018173 /* Gallery.framework */,
-				A8EC60D6804D647FCD95230228CDE484 /* Imaginary.framework */,
-				4839ACA053EFB6CF25272430B180126B /* Lightbox.framework */,
-				17BB62714354866201B846ED452CD88B /* Pods_ARInstagram.framework */,
-				002B1E88BA14EBF633CD66EBFBA107E9 /* PromiseKit.framework */,
-				E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		6A0229B5606E79FD94F9C2C2C3235540 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -785,6 +754,20 @@
 			);
 			name = SVProgressHUD;
 			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		7EE9C1BB77BF3CABD851B9E7A51D7CF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				736B64357A6C420C3A7062C6D479AC7F /* Cache.framework */,
+				C672811526EB10879FAA25858B018173 /* Gallery.framework */,
+				A8EC60D6804D647FCD95230228CDE484 /* Imaginary.framework */,
+				4839ACA053EFB6CF25272430B180126B /* Lightbox.framework */,
+				452B0AFD937BDF44F2059EBC74631BF5 /* Pods_ARWorld.framework */,
+				002B1E88BA14EBF633CD66EBFBA107E9 /* PromiseKit.framework */,
+				E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		8867A0EB8FF8C036CFD4D284B29CEDA4 /* Support Files */ = {
@@ -930,23 +913,32 @@
 			path = Lightbox;
 			sourceTree = "<group>";
 		};
-		CB68EB4B250C40E603D41BDF37CF8967 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0B167AEE5B31E112911EC0ACEACC90FB /* Pods-ARInstagram */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				6A0229B5606E79FD94F9C2C2C3235540 /* Frameworks */,
 				2AA0B6E1A2BA6E57BDFEDB27DEC27E68 /* Pods */,
-				5B3141628F1F11171E5C45CD8CB9E14D /* Products */,
-				CB68EB4B250C40E603D41BDF37CF8967 /* Targets Support Files */,
+				7EE9C1BB77BF3CABD851B9E7A51D7CF9 /* Products */,
+				E37FE906B6CF65A52DAAC1435CBDC805 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D3158BB00DDCD834431A0F40587A8C41 /* Pods-ARWorld */ = {
+			isa = PBXGroup;
+			children = (
+				D21448F65FF6AC0277652F3D21A11E80 /* Pods-ARWorld.modulemap */,
+				26DCE565154917710B94000B2F0F5F18 /* Pods-ARWorld-acknowledgements.markdown */,
+				924364C36745B4C1629D69EEC014B6CE /* Pods-ARWorld-acknowledgements.plist */,
+				26D199FE861EDCA8EE017EF7A599AF69 /* Pods-ARWorld-dummy.m */,
+				48193AB1DA41B56233825FFD6857643A /* Pods-ARWorld-frameworks.sh */,
+				B64697D1D566B6CF166B6F862048EA86 /* Pods-ARWorld-Info.plist */,
+				F45A175AFD35780F08950EC5E4951CA6 /* Pods-ARWorld-umbrella.h */,
+				A73BA2FD5291D04DA279FF450C570075 /* Pods-ARWorld.debug.xcconfig */,
+				D9B4A99C850C5D64C80607EA3EB43AF9 /* Pods-ARWorld.release.xcconfig */,
+			);
+			name = "Pods-ARWorld";
+			path = "Target Support Files/Pods-ARWorld";
 			sourceTree = "<group>";
 		};
 		D6C60335A377C735B6F0ED6E7DA28A7A /* Support Files */ = {
@@ -1002,6 +994,14 @@
 			path = "../Target Support Files/Lightbox";
 			sourceTree = "<group>";
 		};
+		E37FE906B6CF65A52DAAC1435CBDC805 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3158BB00DDCD834431A0F40587A8C41 /* Pods-ARWorld */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		F2DEE31609F0C767990BF7ACDE335344 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1019,14 +1019,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		12BC0F9D3E12285DB57D3B2D13987F03 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				00B6C20CCBAFF4D18D63F2D7CDBFC853 /* Pods-ARInstagram-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4FA0C7585B4CFFF760A25769352D8E02 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1086,6 +1078,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				98549F9920FA8D65D380E4485FB1B755 /* Imaginary-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC423DD3228FBE8AD01EBF5AAA2E95C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23D6F9BBA38008190FA7134AF8C36765 /* Pods-ARWorld-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1184,30 +1184,6 @@
 			productReference = 002B1E88BA14EBF633CD66EBFBA107E9 /* PromiseKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		85DF946611CFFC98A1EEA22E44B93D14 /* Pods-ARInstagram */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F73CC1B7441C4252C1BCB79C83EB2C79 /* Build configuration list for PBXNativeTarget "Pods-ARInstagram" */;
-			buildPhases = (
-				12BC0F9D3E12285DB57D3B2D13987F03 /* Headers */,
-				CEDCB785DD2885FF267A6E070599A6AA /* Sources */,
-				A9F565E9E4DBA0E5C61B142C3F4ECD2D /* Frameworks */,
-				7C34D5C4AFF9527C7D919126A8B6B4AD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				31EA8B01600377B1B76C1F7610BA79FB /* PBXTargetDependency */,
-				10F915782DA41828080996851508664A /* PBXTargetDependency */,
-				5E36ACFDB9BAEB1BCE05366785DA78F0 /* PBXTargetDependency */,
-				D767A608E9ADDC71F37DBC7CAF64C62D /* PBXTargetDependency */,
-				B44C331B0FAC698398C215ECBB321067 /* PBXTargetDependency */,
-				7EA475F6F5D86D694337ACE7C88B1440 /* PBXTargetDependency */,
-			);
-			name = "Pods-ARInstagram";
-			productName = "Pods-ARInstagram";
-			productReference = 17BB62714354866201B846ED452CD88B /* Pods_ARInstagram.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		9513DC9A6C5DA07EDB2094920BC9EE79 /* Cache */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1422B94BE2FBFF996153624AAF12061D /* Build configuration list for PBXNativeTarget "Cache" */;
@@ -1226,6 +1202,30 @@
 			productReference = 736B64357A6C420C3A7062C6D479AC7F /* Cache.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		D84BFB42104782B98A00321C4C0C45CB /* Pods-ARWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59F31C588A10AB2BA654C35E75E3E10E /* Build configuration list for PBXNativeTarget "Pods-ARWorld" */;
+			buildPhases = (
+				BFC423DD3228FBE8AD01EBF5AAA2E95C /* Headers */,
+				80E26625A87B8C4E74B6A56F793D29E1 /* Sources */,
+				0DE9CCD9C2B1011122303E4CE9577675 /* Frameworks */,
+				1B751E66AD86967C33E7FE7DE1AEEDF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD3592F4DE9A112D4F6D46FA236519C6 /* PBXTargetDependency */,
+				3FE67C283252481993CF9D38BDD1DFEF /* PBXTargetDependency */,
+				4DEE3C146AE9CC498874BDF961AA1BE0 /* PBXTargetDependency */,
+				B3FFEB73BCFC3B8A01F8582BB52BC082 /* PBXTargetDependency */,
+				648295FCCAE90161F766875F2AA18AC5 /* PBXTargetDependency */,
+				EBF3AB0A34C73D88A1B05F03692C84ED /* PBXTargetDependency */,
+			);
+			name = "Pods-ARWorld";
+			productName = "Pods-ARWorld";
+			productReference = 452B0AFD937BDF44F2059EBC74631BF5 /* Pods_ARWorld.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1241,9 +1241,10 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 5B3141628F1F11171E5C45CD8CB9E14D /* Products */;
+			productRefGroup = 7EE9C1BB77BF3CABD851B9E7A51D7CF9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -1251,7 +1252,7 @@
 				0BC19EF41E39F436CF517D297B712DBD /* Gallery */,
 				3F2BF4C4909B9153968DCBFEF51DB37A /* Imaginary */,
 				2FF67131BF0A388437610695C3724017 /* Lightbox */,
-				85DF946611CFFC98A1EEA22E44B93D14 /* Pods-ARInstagram */,
+				D84BFB42104782B98A00321C4C0C45CB /* Pods-ARWorld */,
 				7C579CE66A1E7A9AA33CA5F97F9C22C5 /* PromiseKit */,
 				1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */,
 			);
@@ -1259,6 +1260,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1B751E66AD86967C33E7FE7DE1AEEDF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		409EA903AAA7848EE17474A886579F4C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1271,13 +1279,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				264E1A478BDFA31DA6842749C72EA535 /* SVProgressHUD.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7C34D5C4AFF9527C7D919126A8B6B4AD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1460,6 +1461,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		80E26625A87B8C4E74B6A56F793D29E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5FDD04D9937DB907A55CA95AED3E06 /* Pods-ARWorld-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BCB41C8671220CF110CF815792190300 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1500,14 +1509,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEDCB785DD2885FF267A6E070599A6AA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				14C87BB33C3C19807327EA6E36AADCAA /* Pods-ARInstagram-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D0233C648200ED130A278D7164E80914 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1529,89 +1530,51 @@
 			target = 9513DC9A6C5DA07EDB2094920BC9EE79 /* Cache */;
 			targetProxy = 213BACC1A180B489EFCB1D7FFE8F7C85 /* PBXContainerItemProxy */;
 		};
-		10F915782DA41828080996851508664A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Gallery;
-			target = 0BC19EF41E39F436CF517D297B712DBD /* Gallery */;
-			targetProxy = 011AC87E477395711E1084C3223864D2 /* PBXContainerItemProxy */;
-		};
-		31EA8B01600377B1B76C1F7610BA79FB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Cache;
-			target = 9513DC9A6C5DA07EDB2094920BC9EE79 /* Cache */;
-			targetProxy = 2BCFD6E07DF36882ABFE864FC8097811 /* PBXContainerItemProxy */;
-		};
 		3F45821976F7160D0453BA9B8B5CC504 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Imaginary;
 			target = 3F2BF4C4909B9153968DCBFEF51DB37A /* Imaginary */;
 			targetProxy = E46272D86C13C72502335117F369FBB2 /* PBXContainerItemProxy */;
 		};
-		5E36ACFDB9BAEB1BCE05366785DA78F0 /* PBXTargetDependency */ = {
+		3FE67C283252481993CF9D38BDD1DFEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Gallery;
+			target = 0BC19EF41E39F436CF517D297B712DBD /* Gallery */;
+			targetProxy = 9C5D9697AE242C610B9A10756974000B /* PBXContainerItemProxy */;
+		};
+		4DEE3C146AE9CC498874BDF961AA1BE0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Imaginary;
 			target = 3F2BF4C4909B9153968DCBFEF51DB37A /* Imaginary */;
-			targetProxy = 4EDCFAEC1E866822F8B79F9CC0BE8F71 /* PBXContainerItemProxy */;
+			targetProxy = 3613AB222F243247002032DE230A5248 /* PBXContainerItemProxy */;
 		};
-		7EA475F6F5D86D694337ACE7C88B1440 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SVProgressHUD;
-			target = 1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */;
-			targetProxy = 48535013EF465709DB261503B6EF0EF3 /* PBXContainerItemProxy */;
-		};
-		B44C331B0FAC698398C215ECBB321067 /* PBXTargetDependency */ = {
+		648295FCCAE90161F766875F2AA18AC5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PromiseKit;
 			target = 7C579CE66A1E7A9AA33CA5F97F9C22C5 /* PromiseKit */;
-			targetProxy = 585FAAE48EEE5ECAD088411CCFF96A44 /* PBXContainerItemProxy */;
+			targetProxy = 695F747BA95835A45526E695E68F3999 /* PBXContainerItemProxy */;
 		};
-		D767A608E9ADDC71F37DBC7CAF64C62D /* PBXTargetDependency */ = {
+		AD3592F4DE9A112D4F6D46FA236519C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Cache;
+			target = 9513DC9A6C5DA07EDB2094920BC9EE79 /* Cache */;
+			targetProxy = B3D1DEDD0A4E76090C51A58897EA4D97 /* PBXContainerItemProxy */;
+		};
+		B3FFEB73BCFC3B8A01F8582BB52BC082 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Lightbox;
 			target = 2FF67131BF0A388437610695C3724017 /* Lightbox */;
-			targetProxy = 88C89B33C6EB1180207478889CD8AD70 /* PBXContainerItemProxy */;
+			targetProxy = 8666D5EFFD96F759D2CC6F11068B87E6 /* PBXContainerItemProxy */;
+		};
+		EBF3AB0A34C73D88A1B05F03692C84ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */;
+			targetProxy = 3D23A145B817C912229A4F93FF12CE95 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		06E2F805FE11E125EEC3E781DC6F2C68 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D0346B2A9300522BF472FCA5DA15D8D /* Pods-ARInstagram.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ARInstagram/Pods-ARInstagram-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ARInstagram/Pods-ARInstagram.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1675,6 +1638,42 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
+		};
+		3A85AECD9396E86D3A52A1149F3506CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8C28C9C178F8BB400D336B3E21B5C47 /* PromiseKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PromiseKit/PromiseKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PromiseKit/PromiseKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PromiseKit/PromiseKit.modulemap";
+				PRODUCT_MODULE_NAME = PromiseKit;
+				PRODUCT_NAME = PromiseKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1770,9 +1769,48 @@
 			};
 			name = Debug;
 		};
-		810751377D09B9E1EC0DF4C59D0080A1 /* Debug */ = {
+		51F940CACFD70A979E2B4FD757444D67 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8C28C9C178F8BB400D336B3E21B5C47 /* PromiseKit.xcconfig */;
+			baseConfigurationReference = D9B4A99C850C5D64C80607EA3EB43AF9 /* Pods-ARWorld.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ARWorld/Pods-ARWorld-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ARWorld/Pods-ARWorld.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7A952B08AE6604F4DDC87F3F6483C7C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04459FAECE6E4EBAF515F0D2080937BD /* Gallery.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1783,18 +1821,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PromiseKit/PromiseKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PromiseKit/PromiseKit-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Gallery/Gallery-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Gallery/Gallery-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/PromiseKit/PromiseKit.modulemap";
-				PRODUCT_MODULE_NAME = PromiseKit;
-				PRODUCT_NAME = PromiseKit;
+				MODULEMAP_FILE = "Target Support Files/Gallery/Gallery.modulemap";
+				PRODUCT_MODULE_NAME = Gallery;
+				PRODUCT_NAME = Gallery;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1804,6 +1842,42 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		8D54B132D702AE3EEB2FD2CDD60B2983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04459FAECE6E4EBAF515F0D2080937BD /* Gallery.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Gallery/Gallery-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Gallery/Gallery-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Gallery/Gallery.modulemap";
+				PRODUCT_MODULE_NAME = Gallery;
+				PRODUCT_NAME = Gallery;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		996001DAD20CED9D9EFFCC0503E4E0DF /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1841,10 +1915,12 @@
 			};
 			name = Release;
 		};
-		9AB7DE42E67BEE83E36E1027E2793DE8 /* Release */ = {
+		A1BCA0A9903CB547BF76081FBC15E8B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 04459FAECE6E4EBAF515F0D2080937BD /* Gallery.xcconfig */;
+			baseConfigurationReference = A73BA2FD5291D04DA279FF450C570075 /* Pods-ARWorld.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1854,27 +1930,28 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Gallery/Gallery-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Gallery/Gallery-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ARWorld/Pods-ARWorld-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/Gallery/Gallery.modulemap";
-				PRODUCT_MODULE_NAME = Gallery;
-				PRODUCT_NAME = Gallery;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ARWorld/Pods-ARWorld.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		AB556174290E39DE9C082CA03D93CCB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1905,79 +1982,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B5DE7066036E9398E3A1823819F8C64E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 514CB86137FB1D452FC5049171239FA2 /* Pods-ARInstagram.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ARInstagram/Pods-ARInstagram-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ARInstagram/Pods-ARInstagram.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B93639B05DA5A9294EC1CF41F32E030A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 04459FAECE6E4EBAF515F0D2080937BD /* Gallery.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Gallery/Gallery-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Gallery/Gallery-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Gallery/Gallery.modulemap";
-				PRODUCT_MODULE_NAME = Gallery;
-				PRODUCT_NAME = Gallery;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -2018,42 +2022,6 @@
 			};
 			name = Debug;
 		};
-		E4B377AE77F1821330F7166C808972CB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8C28C9C178F8BB400D336B3E21B5C47 /* PromiseKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PromiseKit/PromiseKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PromiseKit/PromiseKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/PromiseKit/PromiseKit.modulemap";
-				PRODUCT_MODULE_NAME = PromiseKit;
-				PRODUCT_NAME = PromiseKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		EBA981911D67B279AB61672C506BC2AC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 388B1FE92B9068E5F655C98BBAB52C49 /* Imaginary.xcconfig */;
@@ -2088,6 +2056,41 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		EC7631E590879FBBF9BA4D66D2E01868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8C28C9C178F8BB400D336B3E21B5C47 /* PromiseKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PromiseKit/PromiseKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PromiseKit/PromiseKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PromiseKit/PromiseKit.modulemap";
+				PRODUCT_MODULE_NAME = PromiseKit;
+				PRODUCT_NAME = PromiseKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		F016C5866B89676FC646E4A05F50E7BB /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -2199,8 +2202,8 @@
 		058DF38F5922F24842B97693B0188F2D /* Build configuration list for PBXNativeTarget "PromiseKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				810751377D09B9E1EC0DF4C59D0080A1 /* Debug */,
-				E4B377AE77F1821330F7166C808972CB /* Release */,
+				EC7631E590879FBBF9BA4D66D2E01868 /* Debug */,
+				3A85AECD9396E86D3A52A1149F3506CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2208,8 +2211,8 @@
 		131672F345B7B2D87D5295DC893ECB2E /* Build configuration list for PBXNativeTarget "Gallery" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B93639B05DA5A9294EC1CF41F32E030A /* Debug */,
-				9AB7DE42E67BEE83E36E1027E2793DE8 /* Release */,
+				7A952B08AE6604F4DDC87F3F6483C7C0 /* Debug */,
+				8D54B132D702AE3EEB2FD2CDD60B2983 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2250,20 +2253,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		59F31C588A10AB2BA654C35E75E3E10E /* Build configuration list for PBXNativeTarget "Pods-ARWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1BCA0A9903CB547BF76081FBC15E8B8 /* Debug */,
+				51F940CACFD70A979E2B4FD757444D67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E76C288BA44757915CF3700D8A326EB7 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB556174290E39DE9C082CA03D93CCB1 /* Debug */,
 				996001DAD20CED9D9EFFCC0503E4E0DF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F73CC1B7441C4252C1BCB79C83EB2C79 /* Build configuration list for PBXNativeTarget "Pods-ARInstagram" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				06E2F805FE11E125EEC3E781DC6F2C68 /* Debug */,
-				B5DE7066036E9398E3A1823819F8C64E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

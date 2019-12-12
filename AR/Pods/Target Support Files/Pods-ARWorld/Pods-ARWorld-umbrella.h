@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_ARInstagramVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_ARInstagramVersionString[];
+FOUNDATION_EXPORT double Pods_ARWorldVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_ARWorldVersionString[];
 

@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01A2E5C7022BC7D43F802EAB /* Pods_ARWorld.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48AAF1271635B3F28557BA1B /* Pods_ARWorld.framework */; };
 		7777A921238D48F6006082AE /* PyramidTilesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7777A920238D48F5006082AE /* PyramidTilesCell.swift */; };
-		A35A70974EB024F60FFDDA82 /* Pods_ARInstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F8738D8E6435E26D711D142 /* Pods_ARInstagram.framework */; };
 		B319617222BA10580076BE3F /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B319617122BA10580076BE3F /* UIView+Extensions.swift */; };
 		B3513D6A22AAE2F30047D688 /* Storyboard+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3513D6922AAE2F30047D688 /* Storyboard+Extensions.swift */; };
 		B3513D6D22AAE5970047D688 /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3513D6C22AAE5970047D688 /* ImageHelper.swift */; };
@@ -47,8 +47,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CFCBA8BA09C42E3B5936434 /* Pods-ARWorld.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARWorld.debug.xcconfig"; path = "Target Support Files/Pods-ARWorld/Pods-ARWorld.debug.xcconfig"; sourceTree = "<group>"; };
 		3198239EFEBFE6DEA0F468B2 /* Pods-ARInstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARInstagram.debug.xcconfig"; path = "Target Support Files/Pods-ARInstagram/Pods-ARInstagram.debug.xcconfig"; sourceTree = "<group>"; };
-		6F8738D8E6435E26D711D142 /* Pods_ARInstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARInstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48AAF1271635B3F28557BA1B /* Pods_ARWorld.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARWorld.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7777A920238D48F5006082AE /* PyramidTilesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PyramidTilesCell.swift; sourceTree = "<group>"; };
 		9CD9125959957B5CCBBA439A /* Pods-ARInstagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARInstagram.release.xcconfig"; path = "Target Support Files/Pods-ARInstagram/Pods-ARInstagram.release.xcconfig"; sourceTree = "<group>"; };
 		B319617122BA10580076BE3F /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
@@ -88,6 +89,7 @@
 		B3B29E9422AE21F400613188 /* TileLayoutViewController+Gallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TileLayoutViewController+Gallery.swift"; sourceTree = "<group>"; };
 		B3B29E9722AE226300613188 /* ARViewController+CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ARViewController+CollectionView.swift"; sourceTree = "<group>"; };
 		B3B29EA522AEB9F900613188 /* TileLayoutCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileLayoutCell.swift; sourceTree = "<group>"; };
+		DE71679C440C9F8E91577BA3 /* Pods-ARWorld.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARWorld.release.xcconfig"; path = "Target Support Files/Pods-ARWorld/Pods-ARWorld.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +101,7 @@
 				B36377C322AADD1100450C6C /* Gallery.framework in Frameworks */,
 				B36377C522AADD1100450C6C /* Imaginary.framework in Frameworks */,
 				B36377C722AADD1100450C6C /* Lightbox.framework in Frameworks */,
-				A35A70974EB024F60FFDDA82 /* Pods_ARInstagram.framework in Frameworks */,
+				01A2E5C7022BC7D43F802EAB /* Pods_ARWorld.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,7 +115,7 @@
 				B36377C222AADD1100450C6C /* Gallery.framework */,
 				B36377C422AADD1100450C6C /* Imaginary.framework */,
 				B36377C622AADD1100450C6C /* Lightbox.framework */,
-				6F8738D8E6435E26D711D142 /* Pods_ARInstagram.framework */,
+				48AAF1271635B3F28557BA1B /* Pods_ARWorld.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -245,6 +247,8 @@
 			children = (
 				3198239EFEBFE6DEA0F468B2 /* Pods-ARInstagram.debug.xcconfig */,
 				9CD9125959957B5CCBBA439A /* Pods-ARInstagram.release.xcconfig */,
+				0CFCBA8BA09C42E3B5936434 /* Pods-ARWorld.debug.xcconfig */,
+				DE71679C440C9F8E91577BA3 /* Pods-ARWorld.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -326,15 +330,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ARInstagram/Pods-ARInstagram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-ARWorld/Pods-ARWorld-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ARInstagram/Pods-ARInstagram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-ARWorld/Pods-ARWorld-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARInstagram/Pods-ARInstagram-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARWorld/Pods-ARWorld-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EA8C79F399B64BF6C5EA9923 /* [CP] Check Pods Manifest.lock */ = {
@@ -352,7 +356,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ARInstagram-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ARWorld-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -536,7 +540,7 @@
 		};
 		B36377B222AA854800450C6C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3198239EFEBFE6DEA0F468B2 /* Pods-ARInstagram.debug.xcconfig */;
+			baseConfigurationReference = 0CFCBA8BA09C42E3B5936434 /* Pods-ARWorld.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -557,7 +561,7 @@
 		};
 		B36377B322AA854800450C6C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CD9125959957B5CCBBA439A /* Pods-ARInstagram.release.xcconfig */;
+			baseConfigurationReference = DE71679C440C9F8E91577BA3 /* Pods-ARWorld.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
