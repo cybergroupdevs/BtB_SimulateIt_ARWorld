@@ -33,11 +33,6 @@ extension TilesLayoutViewController: GalleryControllerDelegate, LightboxControll
             if images.count == 3 {
                     goARTapped(UIBarButtonItem())
             }
-        case is PyramidTilesCell:
-            (topSelectedCellItem as? PyramidTilesCell)?.set(images: images)
-            if images.count == 6 {
-                    goARTapped(UIBarButtonItem())
-            }
         default:
             break
         }

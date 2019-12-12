@@ -8,12 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		01A2E5C7022BC7D43F802EAB /* Pods_ARWorld.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48AAF1271635B3F28557BA1B /* Pods_ARWorld.framework */; };
-		7777A921238D48F6006082AE /* PyramidTilesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7777A920238D48F5006082AE /* PyramidTilesCell.swift */; };
 		B319617222BA10580076BE3F /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B319617122BA10580076BE3F /* UIView+Extensions.swift */; };
 		B3513D6A22AAE2F30047D688 /* Storyboard+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3513D6922AAE2F30047D688 /* Storyboard+Extensions.swift */; };
 		B3513D7122AAEDB30047D688 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3513D7022AAEDB30047D688 /* Grid.swift */; };
 		B3513D7422AAF1D60047D688 /* TileNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3513D7322AAF1D60047D688 /* TileNode.swift */; };
-		B3513D7622AAFC290047D688 /* LineNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3513D7522AAFC290047D688 /* LineNode.swift */; };
 		B3513D7822AAFC600047D688 /* SCNVector3+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3513D7722AAFC600047D688 /* SCNVector3+Extensions.swift */; };
 		B36377A322AA854600450C6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36377A222AA854600450C6C /* AppDelegate.swift */; };
 		B36377A522AA854600450C6C /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36377A422AA854600450C6C /* ARViewController.swift */; };
@@ -47,13 +45,11 @@
 		0CFCBA8BA09C42E3B5936434 /* Pods-ARWorld.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARWorld.debug.xcconfig"; path = "Target Support Files/Pods-ARWorld/Pods-ARWorld.debug.xcconfig"; sourceTree = "<group>"; };
 		3198239EFEBFE6DEA0F468B2 /* Pods-ARInstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARInstagram.debug.xcconfig"; path = "Target Support Files/Pods-ARInstagram/Pods-ARInstagram.debug.xcconfig"; sourceTree = "<group>"; };
 		48AAF1271635B3F28557BA1B /* Pods_ARWorld.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARWorld.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7777A920238D48F5006082AE /* PyramidTilesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PyramidTilesCell.swift; sourceTree = "<group>"; };
 		9CD9125959957B5CCBBA439A /* Pods-ARInstagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARInstagram.release.xcconfig"; path = "Target Support Files/Pods-ARInstagram/Pods-ARInstagram.release.xcconfig"; sourceTree = "<group>"; };
 		B319617122BA10580076BE3F /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		B3513D6922AAE2F30047D688 /* Storyboard+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Storyboard+Extensions.swift"; sourceTree = "<group>"; };
 		B3513D7022AAEDB30047D688 /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 		B3513D7322AAF1D60047D688 /* TileNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileNode.swift; sourceTree = "<group>"; };
-		B3513D7522AAFC290047D688 /* LineNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineNode.swift; sourceTree = "<group>"; };
 		B3513D7722AAFC600047D688 /* SCNVector3+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SCNVector3+Extensions.swift"; sourceTree = "<group>"; };
 		B363779F22AA854600450C6C /* SimulateItTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimulateItTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B36377A222AA854600450C6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -118,7 +114,6 @@
 			isa = PBXGroup;
 			children = (
 				B3513D7322AAF1D60047D688 /* TileNode.swift */,
-				B3513D7522AAFC290047D688 /* LineNode.swift */,
 			);
 			path = Nodes;
 			sourceTree = "<group>";
@@ -197,7 +192,6 @@
 		B36377B822AA8C4600450C6C /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				7777A920238D48F5006082AE /* PyramidTilesCell.swift */,
 				B38EF15122B0412200E39584 /* SingleTileCell.swift */,
 				B36377BB22AA8F4500450C6C /* FilterCell.swift */,
 				B38EF15B22B0493300E39584 /* DiagonalTilesCell.xib */,
@@ -356,12 +350,10 @@
 				B36377BA22AA8F3900450C6C /* FrameCell.swift in Sources */,
 				B3B29EA622AEB9F900613188 /* TileLayoutCell.swift in Sources */,
 				B36377CA22AAE13A00450C6C /* UIViewController+Extensions.swift in Sources */,
-				B3513D7622AAFC290047D688 /* LineNode.swift in Sources */,
 				B398C1C422AF8302008C2857 /* UIColor+Extensions.swift in Sources */,
 				B3A5E14D22B909CA009C1D5D /* GalleryViewController+Extensions.swift in Sources */,
 				B3513D7422AAF1D60047D688 /* TileNode.swift in Sources */,
 				B36377A322AA854600450C6C /* AppDelegate.swift in Sources */,
-				7777A921238D48F6006082AE /* PyramidTilesCell.swift in Sources */,
 				B3B29E9122AD3FB500613188 /* UIImage+Extensions.swift in Sources */,
 				B3B29E9822AE226300613188 /* ARViewController+CollectionView.swift in Sources */,
 				B319617222BA10580076BE3F /* UIView+Extensions.swift in Sources */,

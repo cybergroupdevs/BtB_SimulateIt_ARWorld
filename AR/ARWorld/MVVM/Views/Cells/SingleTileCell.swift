@@ -1,8 +1,10 @@
-
-
 import Foundation
 import UIKit
 
+protocol CopyableCell: UICollectionViewCell {
+    func copyCell() -> CopyableCell
+    func initSetup()
+}
 
 class SingleTileCell: UICollectionViewCell, CopyableCell  {
     
