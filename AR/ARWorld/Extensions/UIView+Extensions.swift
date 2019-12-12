@@ -297,23 +297,3 @@ extension UIView {
         self.addSubview(AI)
     }
 }
-
-extension UIView {
-    
-    //    func addBackground<T: Backround> (_ background: T, positionX: CGFloat  = 0.5, positionY: CGFloat  = 0.5, clipToMargins: Bool = true) -> T.View where T.View: UIView {
-    //
-    //        let backgroundView = background.view
-    //        addSubview(backgroundView)
-    //        addConstraint(NSLayoutConstraint(item: backgroundView, attribute: .centerX, relatedBy: .equal, toItem: self, attribute: .centerXWithinMargins, multiplier: positionX * 2, constant: 0))
-    //
-    //        addConstraint(NSLayoutConstraint(item: backgroundView, attribute: .centerY, relatedBy: .equal, toItem: self, attribute: .centerYWithinMargins, multiplier: positionY * 2, constant: 0))
-    //        if clipToMargins {
-    //            let constraints = [NSLayoutConstraint(item: backgroundView, attribute: .leading, relatedBy: .greaterThanOrEqual, toItem: self, attribute: .leadingMargin, multiplier: 1, constant: 0),
-    //                               NSLayoutConstraint(item: backgroundView, attribute: .trailing, relatedBy: .greaterThanOrEqual, toItem: self, attribute: .trailingMargin, multiplier: 1, constant: 0),
-    //                               NSLayoutConstraint(item: backgroundView, attribute: .top, relatedBy: .greaterThanOrEqual, toItem: self, attribute: .topMargin, multiplier: 1, constant: 0),
-    //                               NSLayoutConstraint(item: backgroundView, attribute: .bottom, relatedBy: .greaterThanOrEqual, toItem: self, attribute: .bottomMargin, multiplier: 1, constant: 0)]
-    //            addConstraints(constraints)
-    //        }
-    //        return backgroundView
-    //    }
-}
