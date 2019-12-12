@@ -1,9 +1,10 @@
-
+/*
+ 
+ */
 import Foundation
 import UIKit
 import ARKit
 
-// https://stackoverflow.com/questions/46073981/how-to-create-a-border-for-scnnode-to-indicate-its-selection-in-ios-11-arkit-sce
 class TileNode: SCNNode {
     
     static let hardcodedFrameWidth: CGFloat = 0.045

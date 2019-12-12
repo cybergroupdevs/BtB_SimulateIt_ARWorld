@@ -15,40 +15,6 @@ class ARViewController: UIViewController {
         case pyramid
     }
     
-    let filters: [(name: String, applier: FilterApplierType?)] = [
-        (name: "Normal",
-         applier: nil),
-        (name: "Nashville",
-         applier: ImageHelper.applyNashvilleFilter),
-        (name: "Toaster",
-         applier: ImageHelper.applyToasterFilter),
-        (name: "1977",
-         applier: ImageHelper.apply1977Filter),
-        (name: "Clarendon",
-         applier: ImageHelper.applyClarendonFilter),
-        (name: "HazeRemoval",
-         applier: ImageHelper.applyHazeRemovalFilter),
-        (name: "Chrome",
-         applier: ImageHelper.createDefaultFilterApplier(name: "CIPhotoEffectChrome")),
-        (name: "Fade",
-         applier: ImageHelper.createDefaultFilterApplier(name: "CIPhotoEffectFade")),
-        (name: "Instant",
-         applier: ImageHelper.createDefaultFilterApplier(name: "CIPhotoEffectInstant")),
-        (name: "Mono",
-         applier: ImageHelper.createDefaultFilterApplier(name: "CIPhotoEffectMono")),
-        (name: "Noir",
-         applier: ImageHelper.createDefaultFilterApplier(name: "CIPhotoEffectNoir")),
-        (name: "Process",
-         applier: ImageHelper.createDefaultFilterApplier(name: "CIPhotoEffectProcess")),
-        (name: "Tonal",
-         applier: ImageHelper.createDefaultFilterApplier(name: "CIPhotoEffectTonal")),
-        (name: "Transfer",
-         applier: ImageHelper.createDefaultFilterApplier(name: "CIPhotoEffectTransfer")),
-        (name: "Tone",
-         applier: ImageHelper.createDefaultFilterApplier(name: "CILinearToSRGBToneCurve")),
-        (name: "Linear",
-         applier: ImageHelper.createDefaultFilterApplier(name: "CISRGBToneCurveToLinear")),
-    ]
     
     var touchBeganTime: Date?
     var ciContext = CIContext(options: nil)
@@ -61,9 +27,7 @@ class ARViewController: UIViewController {
     var images: [UIImage]!
     var image: UIImage {
         set {
-            applyFilters(image: newValue)
             framesCollectionView.reloadData()
-            filtersCollectionView.reloadData()
         }
         get {
             return images[0]
@@ -89,8 +53,6 @@ class ARViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        filtersCollectionView.delegate = self
-        filtersCollectionView.dataSource = self
         framesCollectionView.delegate = self
         framesCollectionView.dataSource = self
         
@@ -306,11 +268,6 @@ class ARViewController: UIViewController {
     @IBAction func filtersTapped(_ sender: Any) {
         
         takeScreenshot()
-//        filterBtn.isSelected = true
-//        framesBtn.isSelected = false
-//        filtersCollectionView.isHidden = false
-//        framesColle ctionView.isHidden = true
-//        filtersCollectionView.reloadData()
     }
     
     open func takeScreenshot(_ shouldSave: Bool = true) {
@@ -336,8 +293,6 @@ class ARViewController: UIViewController {
         filterBtn.isSelected = false
         framesBtn.isSelected = true
         filtersCollectionView.isHidden = true
-        framesCollectionView.isHidden = false
-        framesCollectionView.reloadData()
     }
 }
 

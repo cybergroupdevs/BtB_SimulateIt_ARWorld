@@ -17,10 +17,10 @@ extension ARViewController: ARSCNViewDelegate, ARSessionDelegate {
         
         guard let planeAnchor = anchor as? ARPlaneAnchor, planeAnchor.alignment == .vertical else { return }
         // Bigger the 1 meter
-       // if planeAnchor.extent.x * planeAnchor.extent.z > 0.1 { // TODO set to 1
+        if planeAnchor.extent.x * planeAnchor.extent.z > 0.1 { // TODO set to 1
             addTileNodeAnchor(worldTransform: anchor.transform)
             return
-        //}
+        }
         let grid = Grid(anchor: planeAnchor)
         self.grids.append(grid)
         node.addChildNode(grid)
@@ -49,16 +49,4 @@ extension ARViewController: ARSCNViewDelegate, ARSessionDelegate {
         sceneView.session.add(anchor: ARAnchor(name: "tile_node_anchor", transform: worldTransform))
     }
     
-//    private func addTileNode(to node: SCNNode) {
-//        self.tileNode = TileNode()
-//        if let index = self.lastSelectedFilterCellIndex {
-//            self.tileNode?.setup(image: self.thumbnailImages[index.item])
-//        } else {
-//            self.tileNode?.setup(image: self.image)
-//        }
-//        if let index = self.lastSelectedFrameCellIndex, let cell = self.framesCollectionView.cellForItem(at: index) as? FrameCell {
-//            self.tileNode?.set(frame: cell.frameType!)
-//        }
-//        node.addChildNode(self.tileNode!)
-//    }
 }
